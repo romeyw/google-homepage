@@ -26,3 +26,23 @@ li {
 	margin: 25px 40px 0 0;
 	height: 100px;
 }
+
+#bluemanimage {
+	border-radius: 100%;
+}
+
+
+#searchbar {
+	margin: auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+input {
+	height: 30px;
+	width: 40em;
+}
+
+#logoimage {
+	margin: auto;
+}
