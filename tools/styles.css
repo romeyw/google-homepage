@@ -1,10 +1,20 @@
 body {
 	font-size: small;
-	font:family: arial, sans-serif;
+	font-family: Verdana, arial, sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+/* Unerline the links when the user hovers over it */
+a:hover {
+	text-decoration: underline;
+}
+
+/* links are black */
+a:link, a:visited {
+	color: black;
 }
 
 ul {
@@ -18,12 +28,15 @@ li {
 	padding: 0 0 0 18px;
 }
 
+/***********/
+/* Top Bar */
+/***********/
 #topbar ul li: first-child{
 	margin-top: -10px;
 }
 
 #topbar {
-	margin: 25px 40px 0 0;
+	margin: 25px 40px 0 0; /* top, right, bottom, left */
 	height: 100px;
 }
 
@@ -31,7 +44,9 @@ li {
 	border-radius: 100%;
 }
 
-
+/**************/
+/* Search Bar */
+/**************/
 #searchbar {
 	margin: auto;
 	padding-top: 15px;
@@ -45,4 +60,43 @@ input {
 
 #logoimage {
 	margin: auto;
+}
+#searchOptions {
+	margin: auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.button {
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	font-family: Verdana;
+	border-radius: 5px;
+	padding: 3px 4px 3px 4px; /* top, right, bottom, left */
+	margin: 5px;
+	display: inline-block; /* */
+}
+
+/**************/
+/* Bottom Bar */
+/**************/
+#bottombar ul li: first-child{
+	margin-top: -10px;
+}
+
+#bottombar a:link, a:visited{
+	color: #666;
+}
+
+#bottombar {
+	margin: 200px 10px 10px 10px; /* top, right, bottom, left */
+	padding: 5px 5px 5px 5px;
+	height: 20px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+
+#bottomul_left {
+	float: left;
+	border-radius: 5px;
 }
